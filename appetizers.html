@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/appetizers.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <script src="https://kit.fontawesome.com/25a7d28d82.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" text="text/javascript" defer></script>
+    <script src="./js/appetizers.js"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+    <title>Appetizers / Thatix</title>
+</head>
+
+<body>
+    <header>
+        <div class="topHeader">
+            <div class="headerIcons">
+                <i class="fab fa-facebook-square" title="Facebook"></i>
+                <i class="fab fa-twitter" title="Twitter"></i>
+                <i class="fab fa-instagram" title="Instagram"></i>
+                <i class="fab fa-youtube" title="Youtube"></i>
+            </div>
+
+            <div class="headerLinks">
+                <a href="#">
+                    <i class="far fa-file-alt"></i>
+                    Submit recipe
+                </a>
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                    Saved recipe
+                </a>
+                <a href="#">
+                    <i class="fas fa-lock"></i>
+                    Login
+                </a>
+            </div>
+        </div>
+
+        <div class="thatixLogo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" title="Thatix">
+            </a>
+        </div>
+        <div class="wrapper">
+            <!--Add closing div to other pages-->
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html" class="mainHome">Home<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <div class="dropdownHome">
+                                <li>
+                                    <a href="Homesearch.html">Home Search</a>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="dot">Home Slide</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="browseRecipes.html" class="mainHome">Browse Recipes<i
+                                class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <div class="dropdownBrowse">
+                                <li>
+                                    <a href="appetizers.html">Appetizers</a>
+                                </li>
+                                <li>
+                                    <a href="beef.html">Beef</a>
+                                </li>
+                                <li>
+                                    <a href="chicken.html">Chicken</a>
+                                </li>
+                                <li>
+                                    <a href="vegetarian.html">Vegetarian</a>
+                                </li>
+                                <li>
+                                    <a href="desserts.html">Desserts</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainHome">Submite Recipe</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mainHome">Pages<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <div class="dropdownWrap">
+                                <div class="dropdownPages">
+                                    <h3>Pages</h3>
+                                    <li>
+                                        <a href="Homesearch.html">Home Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html">Home Slide</a>
+                                    </li>
+                                    <li>
+                                        <a href="chefs.html">Our Chefs</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </div>
+
+                                <div class="dropdownRecipeLayouts">
+                                    <h3>Recipe Layout</h3>
+                                    <li>
+                                        <a href="tomahawkSteak.html">Recipe w/Video</a>
+                                    </li>
+                                    <li>
+                                        <a href="chickenBreasts.html">Recipe w/Images</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3 Column Recipes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">4 Column Recipes</a>
+                                    </li>
+                                </div>
+
+                                <div class="dropdownAccount">
+                                    <h3>My Account</h3>
+                                    <li>
+                                        <a href="#">Submit Recipe</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Saved Recipes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Register</a>
+                                    </li>
+                                </div>
+
+                                <div class="dropdownShop">
+                                    <h3>Shop</h3>
+                                    <li>
+                                        <a href="#">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">My account</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Cart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Checkout</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainHome">News</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="mainHome">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <button class="responsiveNavBtn" id="responsiveNavBtn"><i class="fas fa-bars"></i></button>
+            <div class="navigationButtons">
+
+                <button onclick="openSearch(this)"><i class="fas fa-search"></i></button>
+            </div>
+            <button id="darkMode" onclick="darkMode(this)">Dark Mode!</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="appetizersTitlePic">
+                <h1>Appetizers</h1>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <span>/</span>
+                    <li>Appetizers</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="seachSection" id="modal">
+            <div class="searchMenu">
+                <button class="firstBtn" onclick="clickForDish()">Appetizers<i class="fas fa-chevron-down"></i></button>
+                <form>
+                    <input type="text" placeholder="Find a recipe...">
+                    <button class="newestNews">Newest first <i class="fas fa-chevron-down"></i></button>
+                </form>
+                <button class="secondBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="dishCategories" id="openDishDropDown">
+                <h3>Categories</h3>
+                <ul>
+                    <li>
+                        <a href="#">All Categories</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-chevron-right"></i> <strong>Appetizers</strong></a>
+                    </li>
+                    <li>
+                        <a href="beef.html">Beef</a>
+                    </li>
+                    <li>
+                        <a href="chicken.html">Chicken</a>
+                    </li>
+                    <li>
+                        <a href="desserts.html">Desserts</a>
+                    </li>
+                    <li>
+                        <a href="vegetarian.html">Vegetarian</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="featuredRecipes">
+                <div class="recipeImg">
+                    <a href="salmonPasta.html">
+                        <img src="./images/pasta-with-salmon.jpg" alt="pie" id="whiteModeBg">
+                    </a>
+                    <div class="recipeInfo">
+                        <h2>Salmon Pasta Pomodoro</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek cooking.</p>
+                        <span>
+                            <img src="./images/me.png" alt="self portrait">
+                            <p>By<strong> Atanas Iskrenov</strong></p>
+                        </span>
+                    </div>
+                    <div class="dishType">
+                        <span>
+                            <i class="far fa-folder-open"></i>
+                            <a href="appetizers.html">Appetizers</a>
+                        </span>
+                        <span>
+                            <i class="far fa-clock"></i>
+                            <p>55 mins</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="recipeImg">
+                    <a href="bruschettaWithTuna.html">
+                        <img src="./images/bruschetta-with-tuna.jpg" alt="greek gyros">
+                    </a>
+                    <div class="recipeInfo">
+                        <h2>Bruschetta with Tuna</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek cooking.</p>
+                        <span>
+                            <img src="./images/me.png" alt="self portrait">
+                            <p>By<strong> Atanas Iskrenov</strong></p>
+                        </span>
+                    </div>
+                    <div class="dishType">
+                        <span>
+                            <i class="far fa-folder-open"></i>
+                            <a href="appetizers.html">Appetizers</a>
+                        </span>
+                        <span>
+                            <i class="far fa-clock"></i>
+                            <p>1 h 20 min</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="recipeImg">
+                    <a href="peruvianCeviche.html">
+                        <img src="./images/peruvian-ceviche-sebiche.jpg" alt="beef steak">
+                    </a>
+                    <div class="recipeInfo">
+                        <h2>Peruvian Cod Ceviche</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek cooking.</p>
+                        <span>
+                            <img src="./images/me.png" alt="self portrait">
+                            <p>By<strong> Atanas Iskrenov</strong></p>
+                        </span>
+                    </div>
+                    <div class="dishType">
+                        <span>
+                            <i class="far fa-folder-open"></i>
+                            <a href="appetizers.html">Appetizers</a>
+                        </span>
+                        <span>
+                            <i class="far fa-clock"></i>
+                            <p>1 h 20 min</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="slider demo">
+                <div> <img src="./images/picture1.jpg" alt=""> </div>
+                <div> <img src="./images/picture2.jpg" alt=""> </div>
+                <div> <img src="./images/picture3.jpg" alt=""> </div>
+                <div> <img src="./images/picture4.jpg" alt=""> </div>
+                <div> <img src="./images/picture5.jpg" alt=""> </div>
+                <div> <img src="./images/picture6.jpg" alt=""> </div>
+            </div>
+            <div class="instagramButton">
+                <a href="#" target="_blank">
+                    <i class="fab fa-instagram" title="Instagram"></i>Follow on Instagram
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="subscribe">
+            <h3>Subscribe</h3>
+            <p>Register and get notified about all the news & updates before it gets too late.</p>
+            <span class="footerForm">
+                <input type="email" placeholder="Your email address" title="Моля, попълнете полето.">
+                <button>Sign up</button>
+            </span>
+        </div>
+        <div class="explore">
+            <h3>Explore</h3>
+            <a href="#">Browse Recipes</a>
+            <a href="#">Submit a Recipe</a>
+            <a href="#">Our Chefs</a>
+            <a href="#">Latest News</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <span>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>787 Mark View Street,
+                    New Town, California
+                </p>
+            </span>
+            <span>
+                <i class="fas fa-envelope"></i>
+                <p>needhelp@thatix.com</p>
+            </span>
+            <span>
+                <i class="fas fa-phone"></i>
+                <p>666 888 0000</p>
+            </span>
+        </div>
+    </footer>
+    <div class="endCredits">
+        <div class="endParagraph">
+            <p>All rights reserved. Your company name here.</p>
+        </div>
+        <div class="socialMediaButtons">
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook-square" title="Facebook"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-twitter" title="Twitter"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-instagram" title="Instagram"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-youtube" title="Youtube"></i>
+            </a>
+        </div>
+    </div>
+    <div class="scrollToTop">
+        <button id="scroll-to-top" onclick="scrollToTop()"><i class="fas fa-angle-up"></i></button>
+    </div>
+
+    <script src="./libs/slick/slick.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+</body>
+
+</html>

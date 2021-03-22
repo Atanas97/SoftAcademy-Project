@@ -1,0 +1,724 @@
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.tartPieBg {
+    background-image: url(../images/pecan-pie-tart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 60%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.greekGyro {
+    background-image: url(../images/greek-gyros-on-a-pita-bread-PNSV8HL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.bakedChicken {
+    background-image: url(../images/baked-chicken-breast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.tomahawkSteak {
+    background-image: url(../images/beef-steak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.raspberryTartlet {
+    background-image: url(../images/food2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.veganTofu {
+    background-image: url(../images/vegan-tofu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.tikkaMasala {
+    background-image: url(../images/food4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+.ricePilaf {
+    background-image: url(../images/rice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+.chineseVeggies{
+    background-image: url(../images/cooked-vegetables.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.chocoBrownie {
+    background-image: url(../images/chocolate-brownie-dessert-with-cherries-PCBEG6F.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.roastedChicken {
+    background-image: url(../images/roasted-chicken.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.ultimateBurger {
+    background-image: url(../images/meat-burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.potRoast {
+    background-image: url(../images/meat-burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.salmonPasta{
+    background-image: url(../images/pasta-with-salmon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.bruschettaWithTuna {
+    background-image: url(../images/bruschetta-with-tuna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.peruvianCeviche{
+    background-image: url(../images/peruvian-ceviche-sebiche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+    height: 230pt;
+    position: relative;
+}
+
+.tartPieBg h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 0;
+    display: flex;
+    align-content: center;
+    padding-top: 60pt;  
+    padding-left: 150pt;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.tartPieBg > div {
+    display: flex;
+    align-items: center;
+    padding-left: 280pt;
+    padding-bottom: 20pt;
+    position: absolute;
+    bottom: 30pt;
+}
+
+.tartPieBg > div p {
+    color: var(--thirdgray-color);
+    font-family: var(--hfont);
+}
+
+.tartPieBg ul {
+    background-color: var(--orange-color);
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--hfont);
+    font-weight: 600;
+    color: #fff;
+    padding: 5pt;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    left: 72.5%;
+    bottom: 0px;
+}
+
+.tartPieBg ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Main section code*/
+
+@media screen and (max-width:1024px) {
+    .headerIcons i {
+        font-size: 1.5rem !important;
+    }
+
+    .navbar ul {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 11111;
+        background-color: #fff;
+        top: 24% !important;
+        left: 10%!important;
+        width: 80% !important;
+        margin-top: 3px !important;
+    }
+
+    .navbar ul.open {
+        visibility: visible;
+    }
+
+    .navbar ul a {
+        display: inline-flex !important;
+        justify-content: space-between !important;
+        border-bottom: 1px solid var(--darkergray-color);
+        width: 100%;
+    }
+    
+    .responsiveNavBtn {
+        display: flex;
+        margin-top: 30pt!important;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    #darkMode {
+        position: absolute;
+        left: 60% !important;
+        margin-top: 20pt!important;
+    }
+
+    .bruschettaWithTuna {
+        height: 160pt;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    main {
+        width: 60% !important;
+    }
+
+    aside {
+        width: 30% !important;
+    }
+
+    .firstCol {
+        margin-right: 20px !important;
+    }
+    .fa-utensils {
+        font-size: 3rem !important;
+    }
+    .fa-clock {
+        margin-right: 10px !important;
+        font-size: 3rem !important;
+    }
+
+    .tartPieBg h1 {
+        padding-left: 10px !important;
+        padding-bottom: 20px !important;
+        font-size: 4rem !important;
+    }
+
+    .tartPieBg .preview {
+        padding-left: 10px !important;
+    }
+
+    .tartPieBg ul {
+        font-size: 1rem;
+        width: 315px;
+        position: absolute;
+        left: 67%;
+    }
+
+    .socialMediaBtn a {
+        margin: 10px !important;
+    }
+
+    .closedAccount  {
+        margin-bottom: 150px !important;
+    }
+    
+    .grayBg p {
+        padding-top: -0px !important;
+    }
+
+    .instagramButton a {
+        margin-bottom: 65pt !important;
+    }
+
+    .slider img{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headerIcons{
+        display: none;
+    }
+
+    .navbar ul {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 11111;
+        background-color: #fff;
+        top: 24% !important;
+        left: 10%!important;
+        width: 80% !important;
+        margin-top: 3px !important;
+    }
+
+    .navbar ul.open {
+        visibility: visible !important;
+    }
+
+    .bruschettaWithTuna,
+    .salmonPasta,
+    .veganTofu,
+    .ultimateBurger, 
+    .tomahawkSteak,
+    .tikkaMasala,
+    .greekGyro,
+    .chineseVeggies,
+    .chocoBrownie,
+    .potRoast,
+    .bakedChicken,
+    .peruvianCeviche,
+    .raspberryTartlet,
+    .ricePilaf,
+    .roastedChicken,
+    .tartPieBg {
+        height: 160pt;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .darkmode {
+        display: none;
+    }
+
+    main {
+        width: 97% !important;
+    }
+
+    aside {
+        width: 90% !important;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .fullWrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .firstCol {
+        margin: 0 10px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .firstCol img {
+        margin-right: 50px !important;
+    }
+
+    .fa-utensils {
+        font-size: 2rem !important;
+    }
+    .fa-clock {
+        margin-right: 10px !important;
+        font-size: 2rem !important;
+    }
+
+    .tartPieBg h1 {
+        padding-left: 10px !important;
+        padding-bottom: 20px !important;
+        font-size: 3rem !important;
+    }
+
+    .tartPieBg .preview {
+        padding-left: 10px !important;
+    }
+
+    .tartPieBg ul {
+        font-size: 1rem;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    .socialMediaBtn {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .socialMediaBtn a {
+        width: 80%;
+        text-align: center;
+        color: rgb(66, 66, 66) !important;
+    }
+
+    .closedAccount  {
+        margin-bottom: 150px !important;
+    }
+    
+    
+    .grayBg p {
+        padding-top: -0px !important;
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        width: 160px; 
+        height: 1.2em; 
+        white-space: nowrap;
+    }
+
+    .instagramButton a {
+        display: none;
+    }
+
+    .slider img{
+        width: 100% !important;
+    }
+
+    footer {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe {
+        margin-top: 30pt;
+    }
+
+    .explore {
+        width: 100%;
+        margin-top: 30pt;
+    }
+    .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30pt;
+        margin-left: 0;
+    }
+
+    .socialMediaButtons {
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+    }
+
+    .endParagraph p{
+        display: none;
+    }
+}
+
+main {
+    width: 50%;
+}
+
+.grayBg {
+    background-color: #f4f3f0;
+    height: 120pt;
+    border-radius: 5px;
+}
+
+.firstCol {
+    margin-left: 25px;
+}
+
+.firstCol a {
+    text-decoration: none;
+    color: var(--thirdgray-color);
+}
+.firstCol a:hover {
+    color: var(--orange-color);
+    transition: 0.5s ease;
+}
+
+.firstCol img {
+    width: 50px;
+}
+
+.secondCol {
+    margin-right: 20px;
+}
+
+.secondCol p{
+    color: var(--thirdgray-color);
+}
+
+.secondCol a {
+    text-decoration: none;
+    color: var(--thirdgray-color);
+    padding-bottom: 0;
+}
+
+.secondCol a:hover {
+    color: var(--orange-color);
+    transition: 0.5s ease;
+}
+.secondCol > div {
+    margin-right: 25px;
+}
+
+iframe {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.midP {
+    color: var(--thirdgray-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    border-left: 2px solid var(--orange-color);
+    padding-left: 25px;
+    font-size: 2rem;
+}
+
+.tartPieImg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fa-utensils {
+    font-size: 4rem;
+    margin-right: 10px;
+}
+
+.fa-clock {
+    font-size: 4rem;
+    margin-right: 20px;
+}
+
+label {
+    font-size: 1.7rem;
+    color: rgb(63, 63, 63);
+    padding-left: 10px;
+}
+.ingredients span:last-of-type {
+    padding-bottom: 25pt;
+    border-bottom: 1px solid var(--thirdgray-color);
+}
+
+.recipeDescription img {
+    border-radius: 5px;
+    width: 90%;
+}
+
+.recipeDescription p {
+    font-size: 1.7rem;
+}
+
+.recipeDescription p::first-letter {
+    border: 1px solid var(--thirdgray-color);
+    border-radius: 50%;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeDescription p:last-of-type {
+    border-bottom: 1px solid var(--thirdgray-color);
+}
+
+.socialMediaBtn {
+    border-bottom: 1px solid var(--thirdgray-color);
+    padding-bottom: 15px;
+}
+
+.socialMediaBtn a {
+    text-decoration: none;
+    color: var(--thirdgray-color);
+    margin: 20px;
+    font-size: 1.5rem;
+    background-color: #f4f3f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.socialMediaBtn a:hover {
+    color: #fff;
+    transition: 0.5s ease;
+}
+.socialMediaBtn i {
+    padding-right: 5px;
+}
+
+.socialMediaBtn a:nth-of-type(1):hover {
+    background-color: rgb(17, 92, 189);
+}
+.socialMediaBtn a:nth-of-type(2):hover {
+    background-color: rgb(0, 137, 250);
+}
+.socialMediaBtn a:nth-of-type(3):hover {
+    background-color: rgb(179, 38, 38);
+}
+.socialMediaBtn a:nth-of-type(4):hover {
+    background-color: #ff4500;
+}
+.socialMediaBtn a:nth-of-type(5):hover {
+    background-color: rgb(5, 5, 26);
+}
+
+.john {
+    color: var(--orange-color);
+}
+
+.john:hover{
+    color: rgb(194, 116, 14);
+    transition: 0.5s ease;
+}
+
+.closedAccount {
+    background-color: #fffee1;
+    height: 50pt;
+    border: 2px solid #e7d95d;
+    margin-bottom: 50pt;
+}
+
+.closedAccount a {
+    color: var(--orange-color);
+}
+
+/*Nutrition Facts first Aside*/
+aside {
+    width: 20%;
+}
+
+.firstAside {
+    border: 1px solid black;
+    font-size: 12px;
+    font-family: var(--hfont);
+    padding: 15px;
+}
+
+.blackBG {
+    height: 15px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.calories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.borderThin {
+    border-bottom: 10px solid #333;
+}
+
+.secondAside {
+    background-color: #f4f3f0;
+    border-radius: 10px;
+}
+
+.secondAside img {
+    width: 40%;
+    height: 70px;
+    border-radius: 2px;
+}
+
+.s {
+    margin-left: 30px;
+}

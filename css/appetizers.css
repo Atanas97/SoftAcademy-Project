@@ -1,0 +1,380 @@
+.appetizersTitlePic {
+    background-image: url(../images/appetizers-title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 200pt;
+    position: relative;
+}
+
+.appetizersTitlePic h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 0;
+    display: flex;
+    align-content: center;
+    padding-top: 60pt;
+    padding-left: 250pt;
+}
+
+.appetizersTitlePic ul {
+    background-color: var(--orange-color);
+    width: 10%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--hfont);
+    font-weight: 600;
+    color: #fff;
+    padding: 5pt;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    left: 70%;
+    bottom: 0px;
+}
+
+.appetizersTitlePic ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.appetizersTitlePic ul a:hover {
+    text-decoration: underline;
+}
+
+.seachSection {
+    margin: 30pt 0;
+    width: 63.5%;
+    margin: 30pt auto;
+}
+
+.searchMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100pt;
+}
+
+.firstBtn {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: var(--orange-color);
+    width: 15%;
+    height: 35pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.firstBtn:hover {
+    cursor: pointer;
+    background-color: rgb(168, 87, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.firstBtn i {
+    color: #cccccc6b;
+}
+
+.searchMenu form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.searchMenu input {
+    width: 90%;
+    margin: auto 10px;
+    margin-right: 0;
+    height: 35pt;
+    border: 1px solid var(--thirdgray-color);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: none;
+    border-right: none;
+    padding-left: 10px;
+}
+
+::placeholder {
+    font-family: var(--hfont);
+}
+
+.newestNews {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    width: 20%;
+    height: 35pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-top: 1px solid var(--thirdgray-color);
+    border-bottom: 1px solid var(--thirdgray-color);
+}
+
+.secondBtn {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid var(--thirdgray-color);
+    border-left: none;
+    background-color: var(--orange-color);
+    height: 35pt;
+    width: 5%;
+}
+
+.secondBtn:hover {
+    cursor: pointer;
+    background-color: rgb(168, 87, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.secondBtn i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.dishCategories {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    width: 15%;
+    top: 78%;
+    font-family: var(--hfont);
+    color: var(--orange-color);
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 15pt;
+    z-index: 1111;
+    display: none;
+}
+
+.dishCategories.active {
+    display: block;
+}
+
+.dishCategories h3 {
+    padding-top: 10pt;
+    border-bottom: 1px solid var(--lightgray-color);
+    width: 80%;
+    margin: 10px auto;
+}
+
+.dishCategories ul {
+    width: 80%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.dishCategories ul li {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dishCategories a {
+    color: var(--orange-color);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+}
+
+.dishCategories a:hover {
+    cursor: pointer;
+    color: rgb(168, 87, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.dishCategories ul li a:last-of-type {
+    padding-bottom: 10pt;
+}
+
+.dishCategories i {
+    color: #333;
+}
+
+
+/* OUR CHEFS SECTION*/
+
+.ourChefs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 50pt auto;
+}
+
+.chefs {
+    border: 1px solid var(--lightgray-color);
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 20pt;
+}
+
+.chefs:hover {
+    box-shadow: var(--box-shadow);
+    transition: 0.5s ease;
+}
+
+.chefs img {
+    width: 100%;
+    height: 40vh;
+}
+
+.chefs h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.chefs p {
+    font-family: var(--hfont);
+    text-align: center;
+    color: #3a3a3a6b;
+}
+
+.chefButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chefButtons a {
+    margin: 10px;
+    border: 1px solid var(--lightgray-color);
+    border-radius: 50%;
+    padding: 10pt 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chefButtons a:hover {
+    background-color: var(--orange-color);
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+@media screen and (max-width: 500px) {
+    .headerIcons{
+        display: none;
+    }
+     .navbar ul {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 11111;
+        background-color: #fff;
+        top: 24% !important;
+        left: 10%!important;
+        width: 80% !important;
+        margin-top: 3px !important;
+    }
+
+    .navbar ul.open {
+        visibility: visible;
+    }
+
+    .navbar ul a {
+        display: inline-flex !important;
+        justify-content: space-between !important;
+        border-bottom: 1px solid var(--darkergray-color);
+        width: 100%;
+    }
+    
+    .responsiveNavBtn {
+        display: flex;
+        margin-top: 30pt!important;
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    #darkMode {
+        position: absolute;
+        left: 60% !important;
+        margin-top: 20pt!important;
+    }
+
+    .appetizersTitlePic {
+        height: 160pt;
+        margin-top: 25px;
+        position: relative;
+    }
+
+    .appetizersTitlePic h1 {
+        padding-left: 10px !important;
+        font-size: 5rem;
+    }
+    .appetizersTitlePic ul{
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    .ourChefs {
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+        
+    }
+    .chefs {
+        width: 95%;
+    }
+
+    .instagramButton a {
+        display: none
+    }
+}   
+
+@media screen and (max-width: 900px) {
+    .appetizersTitlePic {
+        height: 160pt;
+        margin-top: 25px;
+        position: relative;
+    }
+
+    .responsiveNavBtn {
+        display: flex;
+        margin-top: 30pt!important;
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .appetizersTitlePic h1 {
+        padding-left: 10px !important;
+        font-size: 5rem;
+    }
+    .appetizersTitlePic ul{
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    .ourChefs {
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+        
+    }
+    .chefs {
+        width: 50%;
+    }
+
+    .instagramButton a {
+        display: none
+    }
+}

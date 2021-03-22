@@ -1,0 +1,118 @@
+.joinThatix {
+    background-image: url(../images/homeSearchBg1.jpg);
+    background-size: cover;
+    background-color: #00000062;
+    background-blend-mode: multiply;
+    background-position: 100% 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.joinThatix span {
+    display: flex;
+    align-items: center;
+}
+
+.joinThatix p {
+    color: var(--orange-color);
+    font-family: var(--pfont);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.joinThatix h1 {
+    color: #ffffff;
+    font-family: var(--hfont);
+    font-size: 5rem;
+    margin: 0 0 20pt 0;
+}
+
+.joinThatix input {
+    height: 35pt;
+    width: 25vw;
+    padding-left: 20px;
+}
+
+.joinThatix button {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--orange-color);
+    height: 35pt;
+    width: 35%;
+}
+
+.joinThatix button i {
+    color: #fff;
+}
+
+.joinThatix button:hover{
+    cursor: pointer;
+    background-color: rgb(206, 106, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.thatixBg2 {
+    background-image: url(../images/homeSearchBg2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.thatixIntro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.thatixIntro p:first-of-type {
+    color: var(--orange-color);
+    font-family: var(--pfont);
+    font-size: 2rem;
+}
+
+.thatixIntro h1 {
+    font-family: var(--hfont);
+    font-size: 4.5rem;
+    color: rgb(44, 44, 44);
+    margin: 0;
+}
+
+.thatixIntro p:last-of-type {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--darkergray-color);
+    padding-bottom: 20px;
+}
+
+.thatixIntro button {
+    border: none;
+    outline: none;
+    background: var(--orange-color);
+    height: 35pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--hfont);
+    font-size: 15px;
+    margin: 15pt 0;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.thatixRightSide {
+    width: 30%;
+    margin-left: 30pt;
+}
+
+.categories h2 {
+    margin-bottom: 131.5px;
+}

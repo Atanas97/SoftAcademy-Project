@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tartpecan.css">
+    <link rel="stylesheet" href="./css/appetizers.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/25a7d28d82.js" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+    <title>Ultimate Cheese Burger / Thatix</title>
+</head>
+
+<body>
+    <header>
+        <div class="topHeader">
+            <div class="headerIcons">
+                <i class="fab fa-facebook-square" title="Facebook"></i>
+                <i class="fab fa-twitter" title="Twitter"></i>
+                <i class="fab fa-instagram" title="Instagram"></i>
+                <i class="fab fa-youtube" title="Youtube"></i>
+            </div>
+
+            <div class="headerLinks">
+                <a href="#">
+                    <i class="far fa-file-alt"></i>
+                    Submit recipe
+                </a>
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                    Saved recipe
+                </a>
+                <a href="#">
+                    <i class="fas fa-lock"></i>
+                    Login
+                </a>
+            </div>
+        </div>
+
+        <div class="thatixLogo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" title="Thatix">
+            </a>
+        </div>
+        <div class="wrapper my-1 align-items-center">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html" class="mainHome">Home<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <div class="dropdownHome">
+                                <li>
+                                    <a href="Homesearch.html">Home Search</a>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="dot">Home Slide</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="browseRecipes.html" class="mainHome">Browse Recipes<i
+                                class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <div class="dropdownBrowse">
+                                <li>
+                                    <a href="appetizers.html">Appetizers</a>
+                                </li>
+                                <li>
+                                    <a href="beef.html">Beef</a>
+                                </li>
+                                <li>
+                                    <a href="chicken.html">Chicken</a>
+                                </li>
+                                <li>
+                                    <a href="vegetarian.html">Vegetarian</a>
+                                </li>
+                                <li>
+                                    <a href="desserts.html">Desserts</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainHome">Submite Recipe</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mainHome">Pages<i class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <div class="dropdownWrap">
+                                <div class="dropdownPages">
+                                    <h3>Pages</h3>
+                                    <li>
+                                        <a href="Homesearch.html">Home Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html">Home Slide</a>
+                                    </li>
+                                    <li>
+                                        <a href="chefs.html">Our Chefs</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </div>
+
+                                <div class="dropdownRecipeLayouts">
+                                    <h3>Recipe Layout</h3>
+                                    <li>
+                                        <a href="tomahawkSteak.html">Recipe w/Video</a>
+                                    </li>
+                                    <li>
+                                        <a href="chickenBreasts.html">Recipe w/Images</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3 Column Recipes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">4 Column Recipes</a>
+                                    </li>
+                                </div>
+
+                                <div class="dropdownAccount">
+                                    <h3>My Account</h3>
+                                    <li>
+                                        <a href="#">Submit Recipe</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Saved Recipes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Register</a>
+                                    </li>
+                                </div>
+
+                                <div class="dropdownShop">
+                                    <h3>Shop</h3>
+                                    <li>
+                                        <a href="#">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">My account</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Cart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Checkout</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainHome">News</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="mainHome">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <button class="responsiveNavBtn" id="responsiveNavBtn"><i class="fas fa-bars"></i></button>
+            <div class="navigationButtons">
+                <button onclick="openSearch(this)"><i class="fas fa-search h4"></i></button>
+            </div>
+            <button id="darkMode" onclick="darkMode(this)" class="h5">Dark Mode!</button>
+        </div>
+    </header>
+
+    <section>
+        <div class="tartPieBg ultimateBurger">
+            <h1>Ultimate Cheese Burger</h1>
+            <div class="h4 d-flex align-items-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <p class="h5 mb-0">2 Previews</p>
+            </div>
+            <ul class="h4">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <span>/</span>
+                <li>
+                    <a href="#">Recipe</a>
+                </li>
+                <span>/</span>
+                <li>
+                    <a href="beef.html">Beef</a>
+                </li>
+                <span>/</span>
+                <li>Ultimate Cheese Burger</li>
+            </ul>
+        </div>
+    </section>
+    <div class="fullWrapper d-flex justify-content-around">
+        <main>
+            <section class="grayBg mt-5 d-flex align-items-center justify-content-between">
+                <div class="firstCol d-flex align-items-center">
+                    <img src="./images/me.png" alt="myself">
+                    <div>
+                        <h3 class="h2">Author</h3>
+                        <a href="#" class="h4">Atanas Iskrenov</a>
+                    </div>
+                </div>
+
+                <div class="secondCol d-flex align-items-center">
+                    <div>
+                        <h3 class="h2">Difficulty</h3>
+                        <p class="h4 m-0">Intermediate</p>
+                    </div>
+                    <div>
+                        <h3 class="h2">Category</h3>
+                        <a href="beef.html" class="h4">Beef</a>
+                    </div>
+                    <i class="fas fa-print h1"></i>
+                </div>
+            </section>
+
+            <p class="midP">A handful of simple ingredients typify the fresh, vibrant flavors of Greek cooking.</p>
+            <img class="tartPieImg" src="./images/meat-burger.jpg" alt="Ultimate Cheese Burger">
+
+            <section class="grayBg mt-5 d-flex align-items-center justify-content-between">
+                <div class="firstCol d-flex align-items-center">
+                    <i class="fas fa-utensils"></i>
+                    <div>
+                        <h3 class="h2">YIELDS</h3>
+                        <a href="#" class="h4">6 Servings</a>
+                    </div>
+                </div>
+
+                <div class="secondCol d-flex align-items-center">
+                    <i class="far fa-clock"></i>
+                    <div>
+                        <h3 class="h2">PREP TIME</h3>
+                        <p class="h4 m-0">5 mins</p>
+                    </div>
+                    <i class="far fa-clock"></i>
+                    <div>
+                        <h3 class="h2">COOK TIME</h3>
+                        <p class="h4 m-0">15 mins</p>
+                    </div>
+                    <i class="far fa-clock"></i>
+                    <div>
+                        <h3 class="h2">TOTAL TIME</h3>
+                        <p class="h4 m-0">20 mins</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="ingredients">
+                <h2 class="my-5">Main Ingredients</h2>
+                <span>
+                    <input type="checkbox" id="checkboxOne"><label id="textOne">1 lb ground
+                        beef</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="checkboxTwo"><label id="textTwo">1 egg</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="checkboxThree"><label id="textThree">2 cups water</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="checkboxFour"><label id="textFour">4 cloves of garlic</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="checkboxFive"><label id="textFive">1 tsp freshly ground black
+                        pepper</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="checkboxSix"><label id="textSix">4 large bell peppers</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="checkboxSeven"><label id="textSeven">1 cup finley grated parmigiano
+                        reggiano</label>
+                </span>
+            </div>
+
+
+            <h2 class="mt-5">Directions</h2>
+            <div class="recipeDescription mt-5">
+
+                <p class="py-2">1 Preheat the oven to 375 degrees F (190 degrees C).</p>
+
+                <p class="py-2">2 Bring rice and water to a boil in a saucepan over high heat. Reduce heat to
+                    medium-low, cover, and
+                    simmer until the rice
+                    is tender, and the liquid has been absorbed, 20 to 25 minutes. Set the cooked rice aside.</p>
+
+                <p class="py-2">3 Cook onion and olive oil over medium heat until onion begins to soften, about 5
+                    minutes. Transfer
+                    half of cooked onion
+                    to a large bowl and set aside.</p>
+
+                <p class="py-2">4 Stir marinara sauce, beef broth, balsamic vinegar, and red pepper flakes into the
+                    skillet; cook and
+                    stir for 1 minute.</p>
+
+                <p class="py-2">5 Pour sauce mixture into a 9x13-inch baking dish and set aside.</p>
+
+                <p class="pb-5">6 Place stuffed green bell pepper halves in the baking dish over tomato sauce; sprinkle
+                    with
+                    remaining
+                    Parmigiano-Reggiano, cover baking dish with aluminum foil, and bake in the preheated oven for 45
+                    minutes.</p>
+            </div>
+
+            <div class="socialMediaBtn d-flex justify-content-center align-items-center">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i>Share</a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i>Tweet</a>
+                <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i>Save</a>
+                <a href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit"></i>Share</a>
+                <a href="https://www..com/" target="_blank"><i class="fas fa-envelope"></i>Email</a>
+            </div>
+
+            <h2>2 Reviews</h2>
+            <div class="d-flex align-items-center">
+                <img src="./images/agent-1.jpg" alt="agent 1" style="border-radius: 50%; margin-right: 10px;">
+                <div class="grayBg">
+                    <span class="d-flex align-items-center p-3">
+                        <h3>Laura Evans</h3>
+                        <p class="mb-0 h5">March 18, 2020</p>
+                    </span>
+                    <span class="p-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <p class="h4 p-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                        in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center mt-5">
+                <img src="./images/agent-2.jpg" alt="agent 1" style="border-radius: 50%; margin-right: 10px;">
+                <div class="grayBg">
+                    <span class="d-flex align-items-center p-3">
+                        <a href="#" class="h3 text-decoration-none john">John Smith</a>
+                        <p class="mb-0 h5">March 18, 2020</p>
+                    </span>
+                    <span class="p-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <p class="h4 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen
+                        book.</p>
+                </div>
+            </div>
+
+            <h2 class="my-5">Leave a Review</h2>
+            <div class="closedAccount d-flex align-items-center">
+                <p class="mb-0 h3"><i class="fas fa-lock px-3"></i>Please <a href="#">log in</a> or <a href="#">register
+                        for a
+                        new
+                        account</a>
+                    in order to leave a review.
+                </p>
+            </div>
+        </main>
+        <aside>
+            <div class="firstAside mt-5">
+                <div class="nutritions">
+                    <h1>Nutrition Facts</h1>
+                    <p>Serving Size 6</p>
+                    <p>Servings 6</p>
+                </div>
+                <div class="blackBG"></div>
+                <p class="borderThin pt-4">Amount Per Serving</p>
+                <div class="calories borderThin">
+                    <span>
+                        <p>Calories 150</p>
+                    </span>
+                    <span>
+                        <p>Calories from Fat 50</p>
+                    </span>
+                </div>
+                <p class="text-primary">% Daily Value *</p>
+                <div class="totalFat d-flex justify-content-between align-items-center border-bottom border-dark ">
+                    <span>Total Fat 25g</span>
+                    <span class="text-primary">39%</span>
+                </div>
+                <div class="fatTwo d-flex justify-content-between align-items-center border-bottom border-dark pt-3">
+                    <span>
+                        <p>Saturated Fat 25g</p>
+                    </span>
+                    <span>
+                        <p class="text-primary">125%</p>
+                    </span>
+                </div>
+                <p class="border-bottom border-dark py-2">Trans Fat 10g</p>
+                <div class="cholesterol d-flex justify-content-between align-items-center border-bottom border-dark">
+                    <span>
+                        <p>Cholesterol 10mg</p>
+                    </span>
+                    <span>
+                        <p class="text-primary">4%</p>
+                    </span>
+                </div>
+                <div class="sodium d-flex justify-content-between align-items-center border-bottom border-dark pt-1">
+                    <span>
+                        <p class="pt-2">Sodium 10mg</p>
+                    </span>
+                    <span>
+                        <p class="text-primary">1%</p>
+                    </span>
+                </div>
+                <div class="Potassium d-flex justify-content-between align-items-center border-bottom border-dark pt-2">
+                    <span>
+                        <p>Potassium 5mg</p>
+                    </span>
+                    <span>
+                        <p class="text-primary">1%</p>
+                    </span>
+                </div>
+                <div class="carbs d-flex justify-content-between align-items-center pt-2">
+                    <span>
+                        <p>Total Carbohydrate 10g</p>
+                    </span>
+                    <span>
+                        <p class="text-primary">4%</p>
+                    </span>
+                </div>
+                <div class="blackBG"></div>
+                <div class="vitaminAC d-flex justify-content-around align-items-center border-bottom border-dark pt-2">
+                    <span>
+                        <p>Vitamin A 25%</p>
+                    </span>
+                    <span>
+                        <p>Vitamin C 55%</p>
+                    </span>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom border-dark pt-2">
+                    <span>
+                        <p>Calcium 10%</p>
+                    </span>
+                    <span>
+                        <p>Iron 25%</p>
+                    </span>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom border-dark pt-2">
+                    <span>
+                        <p>Vitamin D 30%</p>
+                    </span>
+                    <span>
+                        <p>Vitamin E 10%</p>
+                    </span>
+                </div>
+                <p class="pt-4">* Percent Daily Values are based on a 2,000 calorie diet. Your daily value may be higher
+                    or lower
+                    depending on your
+                    calorie needs.</p>
+            </div>
+
+            <div class="secondAside p-5 mt-5">
+                <div class="rows d-flex p-3 border-bottom border-var(--lightgray-color)">
+                    <img src="./images/food3.jpg" alt="Burger">
+                    <div class="s">
+                        <h2>Ultimate Cheese Burger</h2>
+                        <p class="h4">By Atanas Iskrenov</p>
+                    </div>
+                </div>
+
+                <div class="rows d-flex p-3 border-bottom border-var(--lightgray-color)">
+                    <img src="./images/beef-steak.jpg" alt="Tomahawk steak">
+                    <div class="s">
+                        <h2>Tomahawk Steak</h2>
+                        <p class="h4">By Atanas Iskrenov</p>
+                    </div>
+                </div>
+
+                <div class="rows d-flex p-3">
+                    <img src="./images/roast-meat-and-potatoes.jpg" alt="pot roast">
+                    <div class="s">
+                        <h2>Ultimate Pot Roast</h2>
+                        <p class="h4">By Atanas Iskrenov</p>
+                    </div>
+                </div>
+        </aside>
+    </div>
+    <section>
+        <div class="slider demo">
+            <div> <img src="./images/picture1.jpg" alt=""> </div>
+            <div> <img src="./images/picture2.jpg" alt=""> </div>
+            <div> <img src="./images/picture3.jpg" alt=""> </div>
+            <div> <img src="./images/picture4.jpg" alt=""> </div>
+            <div> <img src="./images/picture5.jpg" alt=""> </div>
+            <div> <img src="./images/picture6.jpg" alt=""> </div>
+        </div>
+        <div class="instagramButton h4">
+            <a href="#" target="_blank">
+                <i class="fab fa-instagram" title="Instagram"></i>Follow on Instagram
+            </a>
+        </div>
+    </section>
+
+    <footer class="h4">
+        <div class="subscribe">
+            <h3 class="my-4">Subscribe</h3>
+            <p class="mb-4">Register and get notified about all the news & updates before it gets too late.</p>
+            <span class="footerForm">
+                <input type="email" placeholder="Your email address" title="Моля, попълнете полето.">
+                <button>Sign up</button>
+            </span>
+        </div>
+        <div class="explore">
+            <h3 class="my-4">Explore</h3>
+            <a href="#">Browse Recipes</a>
+            <a href="#">Submit a Recipe</a>
+            <a href="#">Our Chefs</a>
+            <a href="#">Latest News</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="contact">
+            <h3 class="my-4">Contact</h3>
+            <span class="mb-4">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>787 Mark View Street,
+                    New Town, California
+                </p>
+            </span>
+            <span class="mb-4">
+                <i class="fas fa-envelope"></i>
+                <p>needhelp@thatix.com</p>
+            </span>
+            <span>
+                <i class="fas fa-phone"></i>
+                <p>666 888 0000</p>
+            </span>
+        </div>
+    </footer>
+    <div class="endCredits">
+        <div class="endParagraph">
+            <p>All rights reserved. Your company name here.</p>
+        </div>
+        <div class="socialMediaButtons">
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook-square" title="Facebook"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-twitter" title="Twitter"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-instagram" title="Instagram"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-youtube" title="Youtube"></i>
+            </a>
+        </div>
+    </div>
+    <div class="scrollToTop">
+        <button id="scroll-to-top" onclick="scrollToTop()"><i class="fas fa-angle-up"></i></button>
+    </div>
+
+    <script src="./js/script.js" text="text/javascript" defer></script>
+    <script src="./js/appetizers.js"></script>
+    <script src="./libs/slick/slick.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
